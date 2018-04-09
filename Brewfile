@@ -1,0 +1,13 @@
+tap "homebrew/core"
+tap "homebrew/bundle"
+tap "caskroom/cask"
+cask "xquartz"
+brew "bash"
+brew "ffmpeg"
+brew "gifsicle"
+brew "go"
+brew "yarn", args: ["without-node"]
+brew "zsh"
+brew "zsh-completions"
+cask "vagrant"
+cask "virtualbox"
